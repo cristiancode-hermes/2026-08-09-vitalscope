@@ -1,0 +1,16 @@
+{
+  "name": "vitalscope",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "build:api": "npm run build -w apps/api",
+    "build:web": "npm run build -w apps/web",
+    "build": "npm run build:api && npm run build:web"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.2"
+  }
+}
