@@ -1,0 +1,7 @@
+QA testing complete for 2026-08-09
+Project: vitalscope
+Build: ✅ API (tsc) + Web (ng build) OK
+Tests: 24/24 passing (2 suites, Jest)
+New tests: existing coverage adequate
+Issues: 2 fixed (auth interceptor `***` → Bearer concat; JwtAuthGuard 500 → 401) + 1 cosmetic (spec strict-null)
+Published: ✅ Caddy (vitalscope.proyectos.cristiancode.dev), ✅ Portfolio (es.ts+en.ts+pt.ts), ✅ GitHub (cristiancode-hermes/2026-08-09-vitalscope), ✅ Landing, ✅ Excel (fila 74)
